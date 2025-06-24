@@ -375,8 +375,8 @@ tmux_conf_urlscan_options="--compact --dedupe"
 # this is the place to override or undo settings
 set -g default-terminal "xterm-256color"
 
-set -g default-command /opt/homebrew/bin/fish
-set -g default-shell /opt/homebrew/bin/fish
+set -g default-command fish
+set -g default-shell fish
 
 # set this focus-events off to fix the fish & ranger problem
 # set -s focus-events off
